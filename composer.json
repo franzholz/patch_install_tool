@@ -1,0 +1,42 @@
+{
+  "name": "bugfix/patch-install-tool",
+  "type": "typo3-cms-extension",
+  "description": "Patches for the Install Tool",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.typo3.org"
+    }
+  ],
+  "keywords": [
+    "TYPO3 CMS",
+    "backend",
+    "layout"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/patch_install_tool/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "https://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "replace": {
+    "typo3-ter/patch-install-tool": "self.version"
+  },
+  "require": {
+    "typo3/cms-core": "^11.5"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "patch_install_tool"
+    }
+  }
+}
+
