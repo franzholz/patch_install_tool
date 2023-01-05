@@ -35,6 +35,6 @@ A redirect to the install tool is executed here and some other places:
 
     \TYPO3\CMS\Install\Controller\BackendModuleController::setAuthorizedAndRedirect
 
-See isssue #99434 for more details. 
+See isssue  `#99434 <https://forge.typo3.org/issues/99434>`__ for more details. 
 
 
